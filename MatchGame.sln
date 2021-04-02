@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31025.194
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatchGame", "MatchGame\MatchGame.csproj", "{5DCDB700-B2DC-454C-BDA3-DA7174229333}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MatchGame", "MatchGame\MatchGame.csproj", "{5DCDB700-B2DC-454C-BDA3-DA7174229333}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatchGame2.0", "MatchGame2.0\MatchGame2.0.csproj", "{1CDD9FB8-E494-4974-8B50-3ACAD31C9193}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{5DCDB700-B2DC-454C-BDA3-DA7174229333}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5DCDB700-B2DC-454C-BDA3-DA7174229333}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5DCDB700-B2DC-454C-BDA3-DA7174229333}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CDD9FB8-E494-4974-8B50-3ACAD31C9193}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CDD9FB8-E494-4974-8B50-3ACAD31C9193}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CDD9FB8-E494-4974-8B50-3ACAD31C9193}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CDD9FB8-E494-4974-8B50-3ACAD31C9193}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

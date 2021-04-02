@@ -1,0 +1,48 @@
+﻿<Window x:Class="MatchGame2._0.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MatchGame2._0"
+        mc:Ignorable="d"
+        Title="Matching Game" Height="450" Width="800">
+    <Grid x:Name="mainGrid" Width="400" Margin="0,0,200,-16" HorizontalAlignment="Right">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <TextBlock x:Name="_0" Grid.Row="0" Grid.Column="0" Text="?" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="68" FontWeight="BOLD" />
+        <TextBlock x:Name="_1" Grid.Row="0" Grid.Column="1" Text="?" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="68" FontWeight="BOLD" />
+        <TextBlock x:Name="_2" Grid.Row="0" Grid.Column="2" Text="?" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="68" FontWeight="BOLD" />
+        <TextBlock x:Name="_3" Grid.Row="0" Grid.Column="3" Text="?" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="68" FontWeight="BOLD" />
+        <TextBlock x:Name="_4" Grid.Row="1" Grid.Column="0" Text="?" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="68" FontWeight="BOLD" />
+        <TextBlock x:Name="_5" Grid.Row="1" Grid.Column="1" Text="?" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="68" FontWeight="BOLD" />
+        <TextBlock x:Name="_6" Grid.Row="1" Grid.Column="2" Text="?" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="68" FontWeight="BOLD" />
+        <TextBlock x:Name="_7" Grid.Row="1" Grid.Column="3" Text="?" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="68" FontWeight="BOLD" />
+        <TextBlock x:Name="_8" Grid.Row="2" Grid.Column="0" Text="?" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="68" FontWeight="BOLD" />
+        <TextBlock x:Name="_9" Grid.Row="2" Grid.Column="1" Text="?" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="68" FontWeight="BOLD" />
+        <TextBlock x:Name="_10" Grid.Row="2" Grid.Column="2" Text="?" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="68" FontWeight="BOLD" />
+        <TextBlock x:Name="_11" Grid.Row="2" Grid.Column="3" Text="?" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="68" FontWeight="BOLD" />
+        <TextBlock x:Name="_12" Grid.Row="3" Grid.Column="0" Text="?" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="68" FontWeight="BOLD" />
+        <TextBlock x:Name="_13" Grid.Row="3" Grid.Column="1" Text="?" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="68" FontWeight="BOLD" />
+        <TextBlock x:Name="_14" Grid.Row="3" Grid.Column="2" Text="?" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="68" FontWeight="BOLD" />
+        <TextBlock x:Name="_15" Grid.Row="3" Grid.Column="3" Text="?" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="68" FontWeight="BOLD" />
+        <StackPanel Margin="-200,0,110,112" Grid.RowSpan="2">
+            <Label x:Name="P1" Content="Player 1" FontSize="24" HorizontalAlignment="Center" Foreground="#FFFD0303"/>
+            <TextBlock x:Name="P1Score" TextWrapping="Wrap" Width="66" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Center" FontSize="36" Text="0" Foreground="Black" TextAlignment="Center" />
+        </StackPanel>
+        <StackPanel Grid.Column="3" Margin="100,1,-200,112" Grid.RowSpan="2">
+            <Label x:Name="P2" Content="Player 2" FontSize="24" HorizontalAlignment="Center"/>
+            <TextBlock x:Name="P2Score" TextWrapping="Wrap" Width="66" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Center" FontSize="36" Text="0" TextAlignment="Center" />
+        </StackPanel>
+        <Label x:Name="FinalScore" Grid.ColumnSpan="4" HorizontalAlignment="Left" Height="419" Margin="10,10,0,0" Grid.RowSpan="4" VerticalAlignment="Top" Width="380" Visibility="Hidden" FontSize="48" Background="Black" Foreground="#FF23ACC1" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" />
+    </Grid>
+</Window>
